@@ -12,8 +12,15 @@ C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Gr
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Grpc.Net.Client.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Grpc.Net.ClientFactory.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Grpc.Net.Common.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\MediatR.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\MediatR.Contracts.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Application.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Domain.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Infrastructure.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Application.pdb
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Infrastructure.pdb
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\bin\Debug\net6.0\Domain.pdb
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\obj\Debug\net6.0\AuthorizationService.csproj.AssemblyReference.cache
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\obj\Debug\net6.0\AuthorizationService.GeneratedMSBuildEditorConfig.editorconfig
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagement\obj\Debug\net6.0\AuthorizationService.AssemblyInfoInputs.cache
