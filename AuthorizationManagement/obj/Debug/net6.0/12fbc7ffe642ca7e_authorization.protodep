@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos/Authorization.cs \
+obj\Debug\net6.0\Protos/AuthorizationGrpc.cs: Protos/authorization.proto
