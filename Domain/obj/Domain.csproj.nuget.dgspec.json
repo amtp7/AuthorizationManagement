@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\Domain.csproj",
-        "projectName": "Domain",
+        "projectName": "AuthorizationManagement.Domain",
         "projectPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
         "outputPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\obj\\",

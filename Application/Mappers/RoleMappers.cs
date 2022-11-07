@@ -5,29 +5,34 @@ namespace AuthorizationManagement.Application.Mappers
 {
     public static class RoleMappers
     {
-        public static RoleDTO ToDTO(this Role role)
+        public static RoleDTO? ToDTO(this Role? role)
         {
-            return new RoleDTO
-            {
-                Id = role.Id,
-                Name = role.Name
-            };
+            return role == null
+                ? null
+                : new RoleDTO
+                {
+                    Id = role.Id,
+                    Name = role.Name
+                };
         }
+
         public static Role ToDomain(this RoleDTO role)
         {
             return new Role
-            {
-                Id = role.Id,
-                Name = role.Name
-            };
+                {
+                    Id = role.Id,
+                    Name = role.Name
+                };
         }
-        public static List<RoleDTO> ToDTO(this List<Role> roles)
+
+        public static IEnumerable<RoleDTO?> ToDTO(this IEnumerable<Role?> roles)
         {
-            return roles.Select(role => role.ToDTO()).ToList();
+            return roles.Where(role => role != null).Select(role => role.ToDTO());
         }
-        public static List<Role> ToDomain(this List<RoleDTO> roles)
+
+        public static IEnumerable<Role> ToDomain(this IEnumerable<RoleDTO> roles)
         {
-            return roles.Select(role => role.ToDomain()).ToList();
+            return roles.Where(role => role != null).Select(role => role.ToDomain());
         }
     }
 }

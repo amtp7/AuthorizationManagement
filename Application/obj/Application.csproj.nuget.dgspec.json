@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Git\\Ceiia\\AuthorizationManagement\\Application\\Application.csproj",
-        "projectName": "Application",
+        "projectName": "AuthorizationManagement.Application",
         "projectPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
         "outputPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Application\\obj\\",
@@ -44,6 +44,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.2.2, )"
+            },
             "MediatR": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -52,9 +56,17 @@
               "target": "Package",
               "version": "[11.0.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[3.0.3, )"
             }
           },
           "imports": [
@@ -81,7 +93,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\Domain.csproj",
-        "projectName": "Domain",
+        "projectName": "AuthorizationManagement.Domain",
         "projectPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
         "outputPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Domain\\obj\\",

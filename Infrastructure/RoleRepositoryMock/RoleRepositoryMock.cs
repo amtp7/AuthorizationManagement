@@ -36,14 +36,18 @@ namespace AuthorizationManagement.Infrastructure.RoleRepositoryMock
 
         public async Task UpdateRole(Role role)
         {
-            var roleToUpdate = roles.Single(x => x.Id == role.Id);
+            var roleToUpdate = roles.SingleOrDefault(x => x.Id == role.Id);
             roleToUpdate = role;
             await Task.CompletedTask;
         }
 
         public async Task DeleteRole(int id)
         {
-            roles.Remove(roles.Single(x => x.Id == id));
+            var roleToRemove = roles.SingleOrDefault(x => x.Id == id);
+            if (roleToRemove != null)
+            {
+                roles.Remove(roleToRemove);
+            }
             await Task.CompletedTask;
         }
     }

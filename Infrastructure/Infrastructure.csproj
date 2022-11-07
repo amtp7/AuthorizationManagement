@@ -4,6 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <RootNamespace>AuthorizationManagement.$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>AuthorizationManagement.$(MSBuildProjectName)</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

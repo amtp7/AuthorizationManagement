@@ -14,7 +14,7 @@ namespace AuthorizationManagement.Application.Implementations
             _roleRepositoryMock = roleRepositoryMock;
         }
 
-        public async Task CreateRole(RoleDTO newRole)
+        public async Task<int> CreateRole(RoleDTO newRole)
         {
             var roles = _roleRepositoryMock.GetAllRoles().Result;
 
@@ -22,33 +22,19 @@ namespace AuthorizationManagement.Application.Implementations
             {
                 await _roleRepositoryMock.CreateRole(newRole.ToDomain());
             }
+            return (await _roleRepositoryMock.GetRole(newRole.Id)).Id;
         }
 
-        public async Task DeleteRole(int id)
+        public async Task<IEnumerable<RoleDTO?>> GetAllRoles()
         {
-            if (_roleRepositoryMock.GetRole(id) != null)
-            {
-                await _roleRepositoryMock.DeleteRole(id);
-            }
-        }
-
-        public async Task<List<RoleDTO>> GetAllRoles()
-        {
-            return (await _roleRepositoryMock.GetAllRoles()).ToDTO();
+            var result = await _roleRepositoryMock.GetAllRoles();
+            return result.ToDTO();
         }
 
         public async Task<RoleDTO?> GetRole(int id)
         {
-            var response = await _roleRepositoryMock.GetRole(id);
-            return response != null ? response.ToDTO() : null;
-        }
-
-        public async Task UpdateRole(RoleDTO role)
-        {
-            if (role != null && _roleRepositoryMock.GetRole(role.Id) != null)
-            {
-                await _roleRepositoryMock.UpdateRole(role.ToDomain());
-            }           
+            var result = await _roleRepositoryMock.GetRole(id);
+            return result.ToDTO();
         }
     }
 }

@@ -4,7 +4,7 @@ namespace AuthorizationManagement.Application.RoleRepositoryMock
 {
     public interface IRoleRepositoryMock
     {
-        public Task<Role> GetRole(int id);
+        public Task<Role?> GetRole(int id);
         public Task<List<Role>> GetAllRoles();
         public Task CreateRole(Role role);
         public Task UpdateRole(Role role);
