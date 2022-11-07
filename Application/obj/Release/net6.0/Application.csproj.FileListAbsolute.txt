@@ -1,0 +1,5 @@
+C:\Git\Ceiia\AuthorizationManagement\Application\obj\Release\net6.0\Application.csproj.AssemblyReference.cache
+C:\Git\Ceiia\AuthorizationManagement\Application\obj\Release\net6.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Ceiia\AuthorizationManagement\Application\obj\Release\net6.0\Application.AssemblyInfoInputs.cache
+C:\Git\Ceiia\AuthorizationManagement\Application\obj\Release\net6.0\Application.AssemblyInfo.cs
+C:\Git\Ceiia\AuthorizationManagement\Application\obj\Release\net6.0\Application.csproj.CoreCompileInputs.cache

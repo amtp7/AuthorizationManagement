@@ -44,7 +44,6 @@ C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\Autho
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\AuthorizationManagement.AuthorizationService.runtimeconfig.json
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\AuthorizationManagement.AuthorizationService.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\AuthorizationManagement.AuthorizationService.pdb
-C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\FluentValidation.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\Google.Protobuf.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\Grpc.AspNetCore.Server.dll
 C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\bin\Debug\net6.0\Grpc.AspNetCore.Server.ClientFactory.dll

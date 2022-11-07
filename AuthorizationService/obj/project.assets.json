@@ -2,20 +2,7 @@
   "version": 3,
   "targets": {
     "net6.0": {
-      "FluentValidation/11.2.2": {
-        "type": "package",
-        "compile": {
-          "lib/net6.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/FluentValidation.dll": {
-            "related": ".xml"
-          }
-        }
-      },
-      "Google.Protobuf/3.18.0": {
+      "Google.Protobuf/3.21.9": {
         "type": "package",
         "compile": {
           "lib/net5.0/Google.Protobuf.dll": {
@@ -147,7 +134,7 @@
           }
         }
       },
-      "Grpc.Tools/2.40.0": {
+      "Grpc.Tools/2.50.0": {
         "type": "package",
         "build": {
           "build/Grpc.Tools.props": {},
@@ -416,7 +403,6 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AuthorizationManagement.Domain": "1.0.0",
-          "FluentValidation": "11.2.2",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -458,35 +444,14 @@
     }
   },
   "libraries": {
-    "FluentValidation/11.2.2": {
-      "sha512": "5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
+    "Google.Protobuf/3.21.9": {
+      "sha512": "OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
       "type": "package",
-      "path": "fluentvalidation/11.2.2",
+      "path": "google.protobuf/3.21.9",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "README.md",
-        "fluent-validation-icon.png",
-        "fluentvalidation.11.2.2.nupkg.sha512",
-        "fluentvalidation.nuspec",
-        "lib/net5.0/FluentValidation.dll",
-        "lib/net5.0/FluentValidation.xml",
-        "lib/net6.0/FluentValidation.dll",
-        "lib/net6.0/FluentValidation.xml",
-        "lib/netstandard2.0/FluentValidation.dll",
-        "lib/netstandard2.0/FluentValidation.xml",
-        "lib/netstandard2.1/FluentValidation.dll",
-        "lib/netstandard2.1/FluentValidation.xml"
-      ]
-    },
-    "Google.Protobuf/3.18.0": {
-      "sha512": "Jm6+nppUm9LD+XVsLFkf1YyVlAKsG5gq+Hc/Rn3Zi2pDObBI6PCH/eHBFUJdARl40DpczEdHlV3+WTPOGIXetg==",
-      "type": "package",
-      "path": "google.protobuf/3.18.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "google.protobuf.3.18.0.nupkg.sha512",
+        "google.protobuf.3.21.9.nupkg.sha512",
         "google.protobuf.nuspec",
         "lib/net45/Google.Protobuf.dll",
         "lib/net45/Google.Protobuf.pdb",
@@ -651,10 +616,10 @@
         "packageIcon.png"
       ]
     },
-    "Grpc.Tools/2.40.0": {
-      "sha512": "yOAhijs6POv7oISBV9Rdx5YCSdo/+6zCJTB/ULum3GA4RunxVFI0rPnpJM1+YM9yMf+H1/D001ignsepnygPJw==",
+    "Grpc.Tools/2.50.0": {
+      "sha512": "EPp2aQpoBOvzmhLqipNwk88nf3IVQ0G0DhdSlekYHGPOUCgtcqcEzD3OIWUfQPisSYxMY2HC1sQJm6Li1sVOTw==",
       "type": "package",
-      "path": "grpc.tools/2.40.0",
+      "path": "grpc.tools/2.50.0",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -683,8 +648,9 @@
         "build/native/include/google/protobuf/timestamp.proto",
         "build/native/include/google/protobuf/type.proto",
         "build/native/include/google/protobuf/wrappers.proto",
-        "grpc.tools.2.40.0.nupkg.sha512",
+        "grpc.tools.2.50.0.nupkg.sha512",
         "grpc.tools.nuspec",
+        "packageIcon.png",
         "tools/linux_arm64/grpc_csharp_plugin",
         "tools/linux_arm64/protoc",
         "tools/linux_x64/grpc_csharp_plugin",
@@ -997,7 +963,9 @@
     "net6.0": [
       "AuthorizationManagement.Application >= 1.0.0",
       "AuthorizationManagement.Infrastructure >= 1.0.0",
+      "Google.Protobuf >= 3.21.9",
       "Grpc.AspNetCore >= 2.40.0",
+      "Grpc.Tools >= 2.50.0",
       "MediatR >= 11.0.0",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0"
     ]
@@ -1022,6 +990,7 @@
         "net6.0"
       ],
       "sources": {
+        "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -1048,9 +1017,19 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Google.Protobuf": {
+            "target": "Package",
+            "version": "[3.21.9, )"
+          },
           "Grpc.AspNetCore": {
             "target": "Package",
             "version": "[2.40.0, )"
+          },
+          "Grpc.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.50.0, )"
           },
           "MediatR": {
             "target": "Package",

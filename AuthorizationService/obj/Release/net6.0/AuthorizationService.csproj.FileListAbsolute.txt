@@ -1,0 +1,6 @@
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationService.csproj.AssemblyReference.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationService.AssemblyInfoInputs.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationService.AssemblyInfo.cs
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationService.csproj.CoreCompileInputs.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationService\obj\Release\net6.0\AuthorizationManagement.AuthorizationService.MvcApplicationPartsAssemblyInfo.cache

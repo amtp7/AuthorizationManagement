@@ -1,0 +1,12 @@
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\bin\Debug\net6.0\AuthorizationManagementClient.deps.json
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\bin\Debug\net6.0\AuthorizationManagementClient.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\bin\Debug\net6.0\AuthorizationManagementClient.pdb
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.csproj.AssemblyReference.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.AssemblyInfoInputs.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.AssemblyInfo.cs
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.csproj.CoreCompileInputs.cache
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\refint\AuthorizationManagementClient.dll
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\AuthorizationManagementClient.pdb
+C:\Git\Ceiia\AuthorizationManagement\AuthorizationManagementClient\obj\Debug\net6.0\ref\AuthorizationManagementClient.dll

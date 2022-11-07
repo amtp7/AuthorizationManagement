@@ -1,0 +1,41 @@
+syntax = "proto3";
+
+option csharp_namespace = "GrpcClient";
+
+package RoleManagement;
+
+service RoleManagement
+{
+	rpc GetRole (GetRoleRequest) returns (GetRoleResponse);
+	rpc GetAllRoles (Empty) returns (GetAllRolesResponse);
+	rpc CreateRole (CreateRoleRequest) returns (CreateRoleResponse); 
+}
+
+message Empty {}
+
+message GetRoleRequest 
+{
+	int32 roleId = 1;
+}
+
+message GetRoleResponse
+{
+	int32 roleId = 1;
+	string roleName = 2;
+}
+
+message GetAllRolesResponse
+{
+	repeated GetRoleResponse roles = 1;
+}
+
+message CreateRoleRequest 
+{
+	int32 roleId = 1;
+	string roleName = 2;
+}
+
+message CreateRoleResponse
+{
+	int32 roleId = 1;
+}

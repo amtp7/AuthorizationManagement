@@ -1,0 +1,2 @@
+obj\Release\net6.0\Protos/RoleManagement.cs \
+obj\Release\net6.0\Protos/RoleManagementGrpc.cs: Protos/roleManagement.proto

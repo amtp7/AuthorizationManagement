@@ -10,7 +10,9 @@
         "dependencies": {
           "AuthorizationManagement.Application": "1.0.0",
           "AuthorizationManagement.Infrastructure": "1.0.0",
+          "Google.Protobuf": "3.21.9",
           "Grpc.AspNetCore": "2.40.0",
+          "Grpc.Tools": "2.50.0",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0"
         },
@@ -18,27 +20,19 @@
           "AuthorizationManagement.AuthorizationService.dll": {}
         }
       },
-      "FluentValidation/11.2.2": {
-        "runtime": {
-          "lib/net6.0/FluentValidation.dll": {
-            "assemblyVersion": "11.0.0.0",
-            "fileVersion": "11.2.2.0"
-          }
-        }
-      },
-      "Google.Protobuf/3.18.0": {
+      "Google.Protobuf/3.21.9": {
         "runtime": {
           "lib/net5.0/Google.Protobuf.dll": {
-            "assemblyVersion": "3.18.0.0",
-            "fileVersion": "3.18.0.0"
+            "assemblyVersion": "3.21.9.0",
+            "fileVersion": "3.21.9.0"
           }
         }
       },
       "Grpc.AspNetCore/2.40.0": {
         "dependencies": {
-          "Google.Protobuf": "3.18.0",
+          "Google.Protobuf": "3.21.9",
           "Grpc.AspNetCore.Server.ClientFactory": "2.40.0",
-          "Grpc.Tools": "2.40.0"
+          "Grpc.Tools": "2.50.0"
         }
       },
       "Grpc.AspNetCore.Server/2.40.0": {
@@ -110,7 +104,7 @@
           }
         }
       },
-      "Grpc.Tools/2.40.0": {},
+      "Grpc.Tools/2.50.0": {},
       "MediatR/11.0.0": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -202,7 +196,6 @@
       "AuthorizationManagement.Application/1.0.0": {
         "dependencies": {
           "AuthorizationManagement.Domain": "1.0.0",
-          "FluentValidation": "11.2.2",
           "MediatR": "11.0.0",
           "MediatR.Extensions.Microsoft.DependencyInjection": "11.0.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
@@ -236,19 +229,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FluentValidation/11.2.2": {
+    "Google.Protobuf/3.21.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5QEte2BUZZF6Sezeekr7Zu1THfgpxU7pmuL2SjIrajuGMah+pxPGiRiLtw+x/tSUSSVmcv9LrUe41lKu4l0n4A==",
-      "path": "fluentvalidation/11.2.2",
-      "hashPath": "fluentvalidation.11.2.2.nupkg.sha512"
-    },
-    "Google.Protobuf/3.18.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Jm6+nppUm9LD+XVsLFkf1YyVlAKsG5gq+Hc/Rn3Zi2pDObBI6PCH/eHBFUJdARl40DpczEdHlV3+WTPOGIXetg==",
-      "path": "google.protobuf/3.18.0",
-      "hashPath": "google.protobuf.3.18.0.nupkg.sha512"
+      "sha512": "sha512-OTpFujTgkmqMLbg3KT7F/iuKi1rg6s5FCS2M9XcVLDn40zL8wgXm37CY/F6MeOEXKjdcnXGCN/h7oyMkVydVsg==",
+      "path": "google.protobuf/3.21.9",
+      "hashPath": "google.protobuf.3.21.9.nupkg.sha512"
     },
     "Grpc.AspNetCore/2.40.0": {
       "type": "package",
@@ -299,12 +285,12 @@
       "path": "grpc.net.common/2.40.0",
       "hashPath": "grpc.net.common.2.40.0.nupkg.sha512"
     },
-    "Grpc.Tools/2.40.0": {
+    "Grpc.Tools/2.50.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yOAhijs6POv7oISBV9Rdx5YCSdo/+6zCJTB/ULum3GA4RunxVFI0rPnpJM1+YM9yMf+H1/D001ignsepnygPJw==",
-      "path": "grpc.tools/2.40.0",
-      "hashPath": "grpc.tools.2.40.0.nupkg.sha512"
+      "sha512": "sha512-EPp2aQpoBOvzmhLqipNwk88nf3IVQ0G0DhdSlekYHGPOUCgtcqcEzD3OIWUfQPisSYxMY2HC1sQJm6Li1sVOTw==",
+      "path": "grpc.tools/2.50.0",
+      "hashPath": "grpc.tools.2.50.0.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",

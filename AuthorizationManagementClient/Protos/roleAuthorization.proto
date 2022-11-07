@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "AuthorizationManagementClient.Protos";
+
+package RoleAuthorizationClient;
+
+service RoleAuthorization
+{
+	rpc AuthorizeRoles (AuthorizeRolesRequest) returns (AuthorizeRolesResponse); 
+}
+
+message AuthorizeRolesRequest 
+{
+	repeated int32 roleIds = 1 [packed = true];
+}
+
+message AuthorizeRolesResponse
+{
+	string authorizationStatus = 1;
+}

@@ -1,4 +1,4 @@
-﻿using AuthorizationManagement.Application.RoleRepositoryMock;
+﻿using AuthorizationManagement.Application.Interfaces;
 using AuthorizationManagement.Infrastructure.RoleRepositoryMock;
 
 namespace Microsoft.Extensions.DependencyInjection

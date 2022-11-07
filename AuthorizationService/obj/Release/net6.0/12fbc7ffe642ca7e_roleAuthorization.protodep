@@ -1,0 +1,2 @@
+obj\Release\net6.0\Protos/RoleAuthorization.cs \
+obj\Release\net6.0\Protos/RoleAuthorizationGrpc.cs: Protos/roleAuthorization.proto

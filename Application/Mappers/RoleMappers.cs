@@ -19,10 +19,10 @@ namespace AuthorizationManagement.Application.Mappers
         public static Role ToDomain(this RoleDTO role)
         {
             return new Role
-                {
-                    Id = role.Id,
-                    Name = role.Name
-                };
+            {
+                Id = role.Id,
+                Name = role.Name
+            };
         }
 
         public static IEnumerable<RoleDTO?> ToDTO(this IEnumerable<Role?> roles)

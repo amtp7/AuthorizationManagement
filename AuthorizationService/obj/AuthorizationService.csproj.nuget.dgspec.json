@@ -21,6 +21,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -44,10 +45,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "FluentValidation": {
-              "target": "Package",
-              "version": "[11.2.2, )"
-            },
             "MediatR": {
               "target": "Package",
               "version": "[11.0.0, )"
@@ -106,6 +103,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -132,9 +130,19 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.9, )"
+            },
             "Grpc.AspNetCore": {
               "target": "Package",
               "version": "[2.40.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.50.0, )"
             },
             "MediatR": {
               "target": "Package",
@@ -185,6 +193,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
@@ -240,6 +249,7 @@
           "net6.0"
         ],
         "sources": {
+          "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },

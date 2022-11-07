@@ -1,6 +1,6 @@
 ﻿using AuthorizationManagement.Domain.Entities;
 
-namespace AuthorizationManagement.Application.RoleRepositoryMock
+namespace AuthorizationManagement.Application.Interfaces
 {
     public interface IRoleRepositoryMock
     {

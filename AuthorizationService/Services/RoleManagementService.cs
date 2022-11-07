@@ -21,9 +21,9 @@ namespace AuthorizationManagement.AuthorizationService.Services
 
         public override async Task<GetRoleResponse> GetRole(GetRoleRequest request, ServerCallContext context)
         {
-            var result = await _mediator.Send(new GetRoleQuery 
-            { 
-                Id = request.RoleId 
+            var result = await _mediator.Send(new GetRoleQuery
+            {
+                Id = request.RoleId
             });
 
             return result.ToResponse();
@@ -38,10 +38,10 @@ namespace AuthorizationManagement.AuthorizationService.Services
 
         public override async Task<CreateRoleResponse> CreateRole(CreateRoleRequest request, ServerCallContext context)
         {
-            var result = await _mediator.Send(new CreateRoleCommand 
-            { 
-                Id = request.RoleId, 
-                Name = request.RoleName 
+            var result = await _mediator.Send(new CreateRoleCommand
+            {
+                Id = request.RoleId,
+                Name = request.RoleName
             });
 
             return result.ToResponse();
