@@ -362,11 +362,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Ceiia\\AuthorizationManagement\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Git\\AuthorizationManagement\\Infrastructure\\Infrastructure.csproj",
       "projectName": "AuthorizationManagement.Infrastructure",
-      "projectPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Git\\AuthorizationManagement\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Git\\AuthorizationManagement\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -376,7 +376,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Git\\Ceiia\\AuthorizationManagement\\AuthorizationManagementClient\\bin\\Release": {},
+        "C:\\Git\\Ceiia\\AuthorizationManagement\\GrpcClient\\bin\\Release": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
@@ -384,8 +384,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Git\\Ceiia\\AuthorizationManagement\\Application\\Application.csproj": {
-              "projectPath": "C:\\Git\\Ceiia\\AuthorizationManagement\\Application\\Application.csproj"
+            "C:\\Git\\AuthorizationManagement\\Application\\Application.csproj": {
+              "projectPath": "C:\\Git\\AuthorizationManagement\\Application\\Application.csproj"
             }
           }
         }

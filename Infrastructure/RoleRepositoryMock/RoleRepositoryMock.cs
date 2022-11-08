@@ -28,27 +28,11 @@ namespace AuthorizationManagement.Infrastructure.RoleRepositoryMock
             return await Task.FromResult(roles);
         }
 
-        public async Task CreateRole(Role role)
+        public async Task<int> CreateRole(Role role)
         {
             roles.Add(role);
             await Task.CompletedTask;
-        }
-
-        public async Task UpdateRole(Role role)
-        {
-            var roleToUpdate = roles.SingleOrDefault(x => x.Id == role.Id);
-            roleToUpdate = role;
-            await Task.CompletedTask;
-        }
-
-        public async Task DeleteRole(int id)
-        {
-            var roleToRemove = roles.SingleOrDefault(x => x.Id == id);
-            if (roleToRemove != null)
-            {
-                roles.Remove(roleToRemove);
-            }
-            await Task.CompletedTask;
+            return role.Id;
         }
     }
 }

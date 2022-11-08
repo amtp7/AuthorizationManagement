@@ -15,13 +15,13 @@ namespace AuthorizationManagement.Application.Implementations
 
         public async Task<int> CreateRole(RoleDTO newRole)
         {
-            var roles = _roleRepositoryMock.GetAllRoles().Result;
+            var user = _roleRepositoryMock.GetRole(newRole.Id).Result;
 
-            if (newRole != null && roles.SingleOrDefault(role => role.Id == newRole.Id || role.Name == newRole.Name) == null)
+            if (user == null)
             {
-                await _roleRepositoryMock.CreateRole(newRole.ToDomain());
+                return await _roleRepositoryMock.CreateRole(newRole.ToDomain());
             }
-            return (await _roleRepositoryMock.GetRole(newRole.Id)).Id;
+            return -1;
         }
 
         public async Task<IEnumerable<RoleDTO?>> GetAllRoles()
